@@ -276,7 +276,7 @@
                  "class":"area",
                  "height":64,
                  "id":18,
-                 "name":"to-tutorial",
+                 "name":"to-Office",
                  "properties":[
                         {
                          "name":"exitUrl",
@@ -293,7 +293,7 @@
                  "class":"area",
                  "height":32,
                  "id":19,
-                 "name":"from-conference",
+                 "name":"from-office",
                  "properties":[
                         {
                          "name":"start",

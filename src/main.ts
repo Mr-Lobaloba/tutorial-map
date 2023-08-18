@@ -50,7 +50,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('phrase05').subscribe(closePopup)
 
     WA.room.area.onEnter('phrase06').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase06Popup", "If you find yourself stuck between too many avatars, press 'G' to activate ghost mode and walk through your friends!", []);
+        currentPopup = WA.ui.openPopup("phrase06Popup", "How are you? Auntie is happy!", []);
     })
 
     WA.room.area.onLeave('phrase06').subscribe(closePopup)
@@ -66,6 +66,12 @@ WA.onInit().then(() => {
     })
 
     WA.room.area.onLeave('phrase08').subscribe(closePopup)
+
+    WA.room.area.onEnter('phrase09').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase09Popup", "These blue arrows will guide you from one location to another!", []);
+    })
+
+    WA.room.area.onLeave('phrase09').subscribe(closePopup)
 
 
 
