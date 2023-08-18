@@ -49,6 +49,27 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('phrase05').subscribe(closePopup)
 
+    WA.room.area.onEnter('phrase06').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase06Popup", "If you find yourself stuck between too many avatars, press 'G' to activate ghost mode and walk through your friends!", []);
+    })
+
+    WA.room.area.onLeave('phrase06').subscribe(closePopup)
+
+    WA.room.area.onEnter('phrase07').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase07Popup", "If you can't find the exit, the Jalan Journey logo will be placed at exits too!", []);
+    })
+
+    WA.room.area.onLeave('phrase07').subscribe(closePopup)
+
+    WA.room.area.onEnter('phrase08').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase08Popup", "You can change the aspect ratio by zooming in and out using your mouse or trackpad!", []);
+    })
+
+    WA.room.area.onLeave('phrase08').subscribe(closePopup)
+
+
+
+
 
 
 
