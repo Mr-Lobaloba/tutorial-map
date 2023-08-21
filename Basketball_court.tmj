@@ -531,17 +531,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Baskeball court"
+         "value":"Basketball court"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"Baskeball_court.png"
+         "value":"Basketball_court.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Baskeball_court"
+         "value":"Basketball_court"
         }, 
         {
          "name":"script",
