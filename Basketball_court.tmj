@@ -427,7 +427,7 @@
                  "rotation":0,
                  "visible":true,
                  "width":64,
-                 "x":1152,
+                 "x":1120,
                  "y":736
                 }, 
                 {
@@ -465,7 +465,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":32,
+                 "height":47,
                  "id":37,
                  "name":"to-Office",
                  "properties":[
@@ -476,9 +476,9 @@
                         }],
                  "rotation":90,
                  "visible":true,
-                 "width":64,
+                 "width":128,
                  "x":1280,
-                 "y":768
+                 "y":736
                 }],
          "opacity":1,
          "type":"objectgroup",
