@@ -536,12 +536,12 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"Baskeball_court.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Baskeball court"
+         "value":"Baskeball_court"
         }, 
         {
          "name":"script",

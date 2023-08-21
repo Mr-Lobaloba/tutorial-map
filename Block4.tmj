@@ -244,7 +244,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -307,17 +307,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Baskeball court"
+         "value":"Block4"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"Block4.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Baskeball court"
+         "value":"Block4"
         }, 
         {
          "name":"script",
