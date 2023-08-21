@@ -465,8 +465,8 @@
                 }, 
                 {
                  "class":"area",
-                 "height":47,
-                 "id":37,
+                 "height":128,
+                 "id":38,
                  "name":"to-Office",
                  "properties":[
                         {
@@ -474,11 +474,28 @@
                          "type":"string",
                          "value":"Office.tmj#from-BB-court"
                         }],
-                 "rotation":90,
+                 "rotation":0,
                  "visible":true,
-                 "width":128,
-                 "x":1280,
+                 "width":45,
+                 "x":1232,
                  "y":736
+                }, 
+                {
+                 "class":"area",
+                 "height":64,
+                 "id":39,
+                 "name":"from-Block4",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":160,
+                 "x":768,
+                 "y":192
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -537,7 +554,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":38,
+ "nextobjectid":40,
  "orientation":"orthogonal",
  "properties":[
         {

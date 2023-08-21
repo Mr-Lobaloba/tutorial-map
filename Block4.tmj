@@ -241,6 +241,23 @@
                  "width":38,
                  "x":604.5,
                  "y":448.333333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":96,
+                 "id":37,
+                 "name":"to-BB-court",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"Basketball_court.tmj#from-Block4"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":128,
+                 "x":1664,
+                 "y":736
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -296,7 +313,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":37,
+ "nextobjectid":38,
  "orientation":"orthogonal",
  "properties":[
         {
