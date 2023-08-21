@@ -462,6 +462,23 @@
                  "width":38,
                  "x":604.5,
                  "y":448.333333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":32,
+                 "id":37,
+                 "name":"to-Office",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"Office.tmj#from-BB-court"
+                        }],
+                 "rotation":90,
+                 "visible":true,
+                 "width":64,
+                 "x":1280,
+                 "y":768
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -520,7 +537,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":37,
+ "nextobjectid":38,
  "orientation":"orthogonal",
  "properties":[
         {
