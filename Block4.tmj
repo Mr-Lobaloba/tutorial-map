@@ -390,6 +390,23 @@
                  "width":95.6666666666667,
                  "x":1184.205,
                  "y":916.979
+                }, 
+                {
+                 "class":"area",
+                 "height":64,
+                 "id":44,
+                 "name":"from-Flat",
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":160,
+                 "x":1056,
+                 "y":928
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -452,7 +469,7 @@
          "y":0
         }],
  "nextlayerid":81,
- "nextobjectid":44,
+ "nextobjectid":45,
  "orientation":"orthogonal",
  "properties":[
         {
