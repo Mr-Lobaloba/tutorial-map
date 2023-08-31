@@ -407,6 +407,23 @@
                  "width":160,
                  "x":1056,
                  "y":928
+                }, 
+                {
+                 "class":"area",
+                 "height":54,
+                 "id":45,
+                 "name":"to-Flat",
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"Flat.tmj#from-Block4"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":48,
+                 "x":1236,
+                 "y":872
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -469,7 +486,7 @@
          "y":0
         }],
  "nextlayerid":81,
- "nextobjectid":45,
+ "nextobjectid":46,
  "orientation":"orthogonal",
  "properties":[
         {
