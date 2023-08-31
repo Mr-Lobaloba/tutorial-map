@@ -31,31 +31,6 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('phrase03').subscribe(closePopup)
 
 
-    WA.room.area.onEnter('phrase04').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase04Popup", "...", []);
-    })
-
-    WA.room.area.onLeave('phrase04').subscribe(closePopup)
-
-    WA.room.area.onEnter('phrase05').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase05Popup", "...", []);
-    })
-
-    WA.room.area.onLeave('phrase05').subscribe(closePopup)
-
-    WA.room.area.onEnter('phrase06').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase06Popup", "...", []);
-    })
-
-    WA.room.area.onLeave('phrase06').subscribe(closePopup)
-
-    WA.room.area.onEnter('phrase07').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase07Popup", "..., []);
-    })
-
-    WA.room.area.onLeave('phrase07').subscribe(closePopup)
-
-
 
 
 
