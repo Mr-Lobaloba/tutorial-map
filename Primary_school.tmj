@@ -276,8 +276,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":96,
-                 "x":95.5,
-                 "y":253.5
+                 "x":96.5,
+                 "y":269.5
                 }, 
                 {
                  "class":"area",
@@ -308,8 +308,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":96,
-                 "x":256,
-                 "y":256
+                 "x":255.5,
+                 "y":273
                 }, 
                 {
                  "class":"area",
@@ -340,8 +340,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":96,
-                 "x":448,
-                 "y":256
+                 "x":450,
+                 "y":278
                 }, 
                 {
                  "class":"area",
