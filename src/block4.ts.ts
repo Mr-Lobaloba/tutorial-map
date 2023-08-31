@@ -1,0 +1,53 @@
+/// <reference types="@workadventure/iframe-api-typings" />
+
+import { bootstrapExtra } from "@workadventure/scripting-api-extra";
+
+console.log('Script started successfully');
+
+let currentPopup: any = undefined;
+
+// Waiting for the API to be ready
+WA.onInit().then(() => {
+    console.log('Scripting API ready');
+    console.log('Player tags: ',WA.player.tags)
+
+
+    WA.room.area.onEnter('phrase01').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase01Popup", "Sorry what did you say? Uncle can't hear you well", []);
+    })
+
+    WA.room.area.onLeave('phrase01').subscribe(closePopup)
+
+    WA.room.area.onEnter('phrase02').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase02Popup", "Stare what stare?", []);
+    })
+
+    WA.room.area.onLeave('phrase02').subscribe(closePopup)
+
+    WA.room.area.onEnter('phrase03').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase03Popup", "Entry into Ah Lim's Flat", []);
+    })
+
+    WA.room.area.onLeave('phrase03').subscribe(closePopup)
+
+
+
+
+
+
+
+    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
+    bootstrapExtra().then(() => {
+        console.log('Scripting API Extra ready');
+    }).catch(e => console.error(e));
+
+}).catch(e => console.error(e));
+
+function closePopup(){
+    if (currentPopup !== undefined) {
+        currentPopup.close();
+        currentPopup = undefined;
+    }
+}
+
+

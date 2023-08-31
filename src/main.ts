@@ -25,26 +25,28 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('phrase01').subscribe(closePopup)
 
+
     WA.room.area.onEnter('phrase02').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase02Popup", "These are characters in the game as well! Remember to interact with them and you might find something interesting!", []);
+        currentPopup = WA.ui.openPopup("phrase02Popup", "These are woka - characters in the game as well! Remember to interact with them and you might find something interesting!", []);
     })
 
     WA.room.area.onLeave('phrase02').subscribe(closePopup)
 
+
     WA.room.area.onEnter('phrase03').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase03Popup", "Look out for these green arrows! They are portals into the next rooms", []);
+        currentPopup = WA.ui.openPopup("phrase03Popup", "Look out for these green arrows! They are portals into the next rooms. Try to enter", []);
     })
 
     WA.room.area.onLeave('phrase03').subscribe(closePopup)
 
     WA.room.area.onEnter('phrase04').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase04Popup", "This is a Silent Zone. Your camera and mic are Off", []);
+        currentPopup = WA.ui.openPopup("phrase04Popup", "What to do when you are lost?", []);
     })
 
     WA.room.area.onLeave('phrase04').subscribe(closePopup)
 
     WA.room.area.onEnter('phrase05').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase05Popup", "There's nothing here!", []);
+        currentPopup = WA.ui.openPopup("phrase05Popup", "If you ever find yourself experiencing some sort of glitch, just refresh your browser page and you'll find yourself at where you last left off!", []);
     })
 
     WA.room.area.onLeave('phrase05').subscribe(closePopup)
@@ -56,7 +58,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('phrase06').subscribe(closePopup)
 
     WA.room.area.onEnter('phrase07').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase07Popup", "If you can't find the exit, the Jalan Journey logo will be placed at exits too!", []);
+        currentPopup = WA.ui.openPopup("phrase07Popup", "Please have a seat and start video meeting", []);
     })
 
     WA.room.area.onLeave('phrase07').subscribe(closePopup)
@@ -72,6 +74,12 @@ WA.onInit().then(() => {
     })
 
     WA.room.area.onLeave('phrase09').subscribe(closePopup)
+
+    WA.room.area.onEnter('phrase10').subscribe(() => {
+        currentPopup = WA.ui.openPopup("phrase10Popup", "Lastly, do ask your facilitator for help if you require any assistance!", []);
+    })
+
+    WA.room.area.onLeave('phrase10').subscribe(closePopup)
 
 
 
