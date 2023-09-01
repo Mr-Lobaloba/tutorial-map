@@ -11,7 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-
+    WA.controls.disablePlayerProximityMeeting();
    
     WA.room.area.onEnter('doorStepFront').subscribe(() => {
         const isDoorLocked = WA.state.doorVariable; // this variable should be aligned with your setup in Tiled

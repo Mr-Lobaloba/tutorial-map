@@ -70,7 +70,6 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('phrase07').subscribe(closePopup)
 
 
-   WA.nav.openTab('https://www.wikipedia.org/');
 
 
 
