@@ -19,7 +19,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('phrase01').subscribe(closePopup)
 
     WA.room.area.onEnter('phrase02').subscribe(() => {
-        currentPopup = WA.ui.openPopup("phrase02Popup", "Hi youngster... Can help auntie reach for the soup? Auntie cannot reach...", []);
+        currentPopup = WA.ui.openPopup("phrase02Popup", "Hi youngster... Can you help auntie reach for the soup? Auntie cannot reach...", []);
     })
 
     WA.room.area.onLeave('phrase02').subscribe(closePopup)
