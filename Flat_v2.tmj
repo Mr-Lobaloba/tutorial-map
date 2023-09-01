@@ -204,8 +204,8 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2973, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2983, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -405,6 +405,114 @@
                  "width":94,
                  "x":610,
                  "y":192
+                }, 
+                {
+                 "class":"area",
+                 "height":123.6123,
+                 "id":59,
+                 "name":"Chat bot",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/share.botstar.com\/?id=s72fd89e8-d087-4dfe-9a1f-2901b2eb6e2c"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a website"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":173.5,
+                 "x":536.5,
+                 "y":693.833333333333
+                }, 
+                {
+                 "class":"area",
+                 "height":128,
+                 "id":60,
+                 "name":"Jason_ButtonArea",
+                 "rotation":0,
+                 "visible":true,
+                 "width":160,
+                 "x":979.5,
+                 "y":686
+                }, 
+                {
+                 "class":"",
+                 "height":78.8336,
+                 "id":61,
+                 "name":"Jason_ButtonPopup",
+                 "rotation":0,
+                 "visible":true,
+                 "width":288,
+                 "x":915.039123883328,
+                 "y":589.232259552255
+                }, 
+                {
+                 "class":"area",
+                 "height":92.6123,
+                 "id":62,
+                 "name":"Chat bot",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":"https:\/\/share.botstar.com\/?id=s72fd89e8-d087-4dfe-9a1f-2901b2eb6e2c"
+                        }, 
+                        {
+                         "name":"openTabTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openTabTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a website"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":160,
+                 "x":37,
+                 "y":438.19385
+                }, 
+                {
+                 "class":"area",
+                 "height":158,
+                 "id":63,
+                 "name":"phrase11",
+                 "rotation":0,
+                 "visible":true,
+                 "width":159.5,
+                 "x":544,
+                 "y":659.0415
+                }, 
+                {
+                 "class":"",
+                 "height":78.8336,
+                 "id":64,
+                 "name":"phrase11Popup",
+                 "rotation":0,
+                 "visible":true,
+                 "width":227,
+                 "x":509,
+                 "y":576.4585
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -467,7 +575,7 @@
          "y":0
         }],
  "nextlayerid":73,
- "nextobjectid":60,
+ "nextobjectid":65,
  "orientation":"orthogonal",
  "properties":[
         {

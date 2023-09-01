@@ -12,6 +12,20 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
 
+    WA.room.area.onEnter('openTabButtonArea').subscribe(() => {
+    currentPopup = WA.ui.openPopup("openTabButtonPopup", "Would you like to open shopping cart?", [{
+        label: "Open shopping cart",
+        className: "primary",
+        callback: (popup) => {
+            WA.nav.openTab('https://docs.google.com/spreadsheets/d/1MjueV7HdBzLQ4M_MrElqaLNf_hK51CiUMllWgL9Tkps/edit#gid=215325378/');
+            popup.close();
+        }
+    }]);    
+})
+
+    WA.room.area.onLeave('openTabButtonArea').subscribe(closePopup)
+
+
     WA.room.area.onEnter('phrase01').subscribe(() => {
         currentPopup = WA.ui.openPopup("phrase01Popup", "Oh no... I don't have enough money to buy fresh fish", []);
     })
@@ -56,7 +70,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('phrase07').subscribe(closePopup)
 
 
-
+   WA.nav.openTab('https://www.wikipedia.org/');
 
 
 

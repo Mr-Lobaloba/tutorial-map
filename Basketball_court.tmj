@@ -738,6 +738,56 @@
          "tilecount":957,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":25,
+         "firstgid":4564,
+         "image":"tilesets\/Room_furniture.png",
+         "imageheight":640,
+         "imagewidth":800,
+         "margin":0,
+         "name":"Game room_furn",
+         "spacing":0,
+         "tilecount":500,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":128,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":129,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":153,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":154,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",

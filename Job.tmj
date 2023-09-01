@@ -102,7 +102,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":25,
          "id":75,
-         "name":"Door_DoorStep",
+         "name":"doorStepFront",
          "opacity":1,
          "properties":[
                 {
@@ -116,14 +116,19 @@
                  "value":false
                 }, 
                 {
+                 "name":"code",
+                 "type":"string",
+                 "value":"123"
+                }, 
+                {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"my_door"
+                 "value":"doorVariable"
                 }, 
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"my_door"
+                 "value":"doorVariable"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -280,7 +285,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":25,
                  "id":74,
-                 "name":"door_opened",
+                 "name":"openDoor",
                  "opacity":1,
                  "type":"tilelayer",
                  "visible":true,
@@ -316,7 +321,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":25,
                  "id":73,
-                 "name":"door_closed",
+                 "name":"closeDoor",
                  "opacity":1,
                  "type":"tilelayer",
                  "visible":true,
@@ -416,7 +421,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":62,
+                 "height":826.666666666667,
                  "id":14,
                  "name":"silentZone",
                  "properties":[
@@ -427,9 +432,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":301,
-                 "x":528.666666666667,
-                 "y":511.333333333333
+                 "width":1147,
+                 "x":-11.9999999999999,
+                 "y":-16.6666666666669
                 }, 
                 {
                  "class":"area",
@@ -705,6 +710,28 @@
                  "width":156,
                  "x":928,
                  "y":128
+                }, 
+                {
+                 "class":"area",
+                 "height":123.333333333333,
+                 "id":67,
+                 "name":"doorStepFront",
+                 "rotation":0,
+                 "visible":true,
+                 "width":128,
+                 "x":286,
+                 "y":486.666666666667
+                }, 
+                {
+                 "class":"",
+                 "height":83.8336,
+                 "id":68,
+                 "name":"doorCodePopup",
+                 "rotation":0,
+                 "visible":true,
+                 "width":254,
+                 "x":225,
+                 "y":380.749866666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -721,13 +748,13 @@
                  "class":"variable",
                  "height":0,
                  "id":63,
-                 "name":"my_door",
+                 "name":"doorVariable",
                  "point":true,
                  "properties":[
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"door_closed"
+                         "value":"closeDoor"
                         }, 
                         {
                          "name":"default",
@@ -742,18 +769,18 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"door_opened"
+                         "value":"openDoor"
                         }, 
                         {
                          "name":"persist",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }],
                  "rotation":0,
                  "visible":true,
                  "width":0,
-                 "x":320,
-                 "y":496
+                 "x":264.666666666667,
+                 "y":499.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -808,7 +835,7 @@
          "y":0
         }],
  "nextlayerid":78,
- "nextobjectid":64,
+ "nextobjectid":69,
  "orientation":"orthogonal",
  "properties":[
         {

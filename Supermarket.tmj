@@ -485,8 +485,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":259,
-                 "x":61.0000000000001,
-                 "y":192
+                 "x":-325,
+                 "y":158
                 }, 
                 {
                  "class":"area",
@@ -2016,10 +2016,32 @@
                  "width":259,
                  "x":1472,
                  "y":192
+                }, 
+                {
+                 "class":"area",
+                 "height":216,
+                 "id":127,
+                 "name":"openTabButtonArea",
+                 "rotation":0,
+                 "visible":true,
+                 "width":231.5,
+                 "x":81.25,
+                 "y":175
+                }, 
+                {
+                 "class":"",
+                 "height":83.8336,
+                 "id":128,
+                 "name":"openTabButtonPopup",
+                 "rotation":0,
+                 "visible":true,
+                 "width":254,
+                 "x":69,
+                 "y":109.0832
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -2101,7 +2123,7 @@
          "y":0
         }],
  "nextlayerid":73,
- "nextobjectid":127,
+ "nextobjectid":129,
  "orientation":"orthogonal",
  "properties":[
         {
