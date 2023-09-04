@@ -11,6 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    WA.controls.disablePlayerProximityMeeting();
 
     WA.room.area.onEnter('openTabButtonArea').subscribe(() => {
     currentPopup = WA.ui.openPopup("openTabButtonPopup", "Would you like to open shopping cart?", [{

@@ -11,6 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    WA.controls.disablePlayerProximityMeeting();
 
     WA.room.area.onEnter('phrase01').subscribe(() => {
         currentPopup = WA.ui.openPopup("phrase01Popup", "Bringing my son to play soccer later!", []);
