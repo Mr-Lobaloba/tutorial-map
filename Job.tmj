@@ -543,7 +543,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"Basketball_court.tmj#from-Job"
+                         "value":"Basketball_court_v2.tmj#from-Job"
                         }],
                  "rotation":0,
                  "visible":true,
