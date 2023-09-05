@@ -4,19 +4,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
-let openPopups: any[] = [];
-
-function openNewPopup(popupId: string, message: string, buttons: any[] = []) {
-    const popup = WA.ui.openPopup(popupId, message, buttons);
-    openPopups.push(popup);
-}
-
-function closeAllPopups() {
-    for (const popup of openPopups) {
-        popup.close();
-    }
-    openPopups = [];
-}
+let currentPopup: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {

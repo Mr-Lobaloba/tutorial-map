@@ -85,11 +85,6 @@ function closeAllPopups() {
 
 }).catch(e => console.error(e));
 
-function closePopup(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
-    }
-}
+
 
 
