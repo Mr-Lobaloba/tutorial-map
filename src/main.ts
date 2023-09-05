@@ -4,15 +4,29 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
-let currentPopup: any = undefined;
+let openPopups: any[] = [];
+
+function openNewPopup(popupId: string, message: string, buttons: any[] = []) {
+    const popup = WA.ui.openPopup(popupId, message, buttons);
+    openPopups.push(popup);
+}
+
+function closeAllPopups() {
+    for (const popup of openPopups) {
+        popup.close();
+    }
+    openPopups = [];
+}
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+
     WA.controls.disablePlayerProximityMeeting();
    
+
     WA.room.area.onEnter('doorStepFront').subscribe(() => {
         const isDoorLocked = WA.state.doorVariable; // this variable should be aligned with your setup in Tiled
 
