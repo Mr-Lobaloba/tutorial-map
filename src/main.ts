@@ -11,45 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
-
     WA.controls.disablePlayerProximityMeeting();
-   
-
-    WA.room.area.onEnter('doorStepFront').subscribe(() => {
-        const isDoorLocked = WA.state.doorVariable; // this variable should be aligned with your setup in Tiled
-
-        if (isDoorLocked) {
-            openDoor();
-        }
-    });
-
-    WA.room.area.onLeave('doorStepFront').subscribe(() => {
-        closeDoor();
-    });
-
-    function openDoor() {
-        WA.state.doorVariable = false; // Set door to open
-    }
-
-    function closeDoor() {
-        WA.state.doorVariable = true; // Set door to closed
-    }
-
-
-
-    WA.room.area.onEnter('Jason_ButtonArea').subscribe(() => {
-    currentPopup = WA.ui.openPopup("Jason_ButtonPopup", "Hi i'm Jason. Want to have a conversation?", [{
-        label: "Let's have a conversation",
-        className: "primary",
-        callback: (popup) => {
-            WA.nav.openTab('https://share.botstar.com/?id=s72fd89e8-d087-4dfe-9a1f-2901b2eb6e2c');
-            popup.close();
-        }
-    }]);
-})
-    
-    WA.room.area.onLeave('Jason_ButtonArea').subscribe(closePopup)
-
 
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
