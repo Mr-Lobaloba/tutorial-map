@@ -821,17 +821,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Intro, tutorial"
+         "value":"Primary school"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"Primary_School.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Tutorial"
+         "value":"Primary school"
         }, 
         {
          "name":"script",

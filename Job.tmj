@@ -895,17 +895,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Intro, tutorial"
+         "value":"Job interview"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"Job.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Tutorial"
+         "value":"Job interview"
         }, 
         {
          "name":"script",

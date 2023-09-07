@@ -704,17 +704,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Intro, tutorial"
+         "value":"Apartment"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"Flat.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Tutorial"
+         "value":"Flat"
         }, 
         {
          "name":"script",
